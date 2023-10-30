@@ -14,7 +14,7 @@ export default function App() {
         <img
           src={isLarge ? productImage : productImage_m}
           alt="logo"
-          className="rounded-t-2xl md:w-1/2"
+          className="rounded-t-2xl md:rounded-l-2xl md:w-1/2"
         />
         <div className="flex max-h-full gap-4 flex-col justify-between p-8 md:w-1/2 ">
           <h4 className=" w-full font-montserrat text-lg tracking-[0.3rem] text-neutral-darkGrayishBlue">
